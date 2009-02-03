@@ -1,0 +1,25 @@
+HexCoding ruby c extension
+==========================
+
+HexCoding is a ruby c extension that should be approximately twice as fast as the
+normal to_hex in ruby. It uses a simple lookup table for converting strings to 
+hex strings and vice versa. 
+
+Detecting Integer types is not support but can trivially be added(it wasn't necessary 
+at the time).
+
+Requirements
+============
+
+obviously you need gcc and the usual stuff.
+
+Installation
+============
+
+ruby extconf.rb
+make
+
+
+Enjoy,
+
+  Reza Jelveh
